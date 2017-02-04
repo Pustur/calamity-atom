@@ -1,15 +1,40 @@
 // These colors are specific to the theme. Do not use in a package!
 
-@very-light-gray: #c5c8c6;
-@light-gray: #969896;
-@gray: #373b41;
-@dark-gray: #282a2e;
-@very-dark-gray: #1d1f21;
+// Main color
+@calamity: #2f2833;
 
-@cyan: #8abeb7;
-@blue: #81a2be;
-@purple: #b294bb;
-@green: #b5bd68;
-@red: #cc6666;
-@orange: #de935f;
-@light-orange: #f0c674;
+// Grayscale (almost)
+@black: #1a131f;
+
+@gray: #708090;
+
+@white: #f8f8f2;
+
+// Calamity colors
+@background: @calamity;
+  @background-lightest: lighten(@background, 20%);
+  @background-lighter: lighten(@background, 12%);
+  @background-light: lighten(@background, 3%);
+  @background-dark: darken(@background, 2%);
+
+@main: lighten(@calamity, 30%);
+  @main-lighter: lighten(@main, 35%);
+  @main-light: lighten(@main, 25%);
+
+@cyan: #74d3de;
+
+@green: #a5f69c;
+  @green-dark: #3ec952;
+
+@blue: #3b79c7;
+
+@purple: #c668ba;
+
+@pink: #ff99c6;
+  @pink-dark: #f92672;
+
+@red: #fc644d;
+
+@orange: #ff9f2e;
+
+@yellow: #e9d7a5;

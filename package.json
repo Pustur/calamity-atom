@@ -2,10 +2,12 @@
   "name": "calamity-syntax",
   "theme": "syntax",
   "version": "0.0.0",
-  "description": "A short description of your syntax theme",
+  "description": "A purple dark theme with medium to high contrast for the Atom editor",
   "keywords": [
     "syntax",
-    "theme"
+    "theme",
+    "dark",
+    "purple"
   ],
   "repository": "https://github.com/atom/calamity-syntax",
   "license": "MIT",
