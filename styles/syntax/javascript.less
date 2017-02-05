@@ -1,0 +1,38 @@
+// Javascript styles
+
+.syntax--js {
+  .syntax--keyword {
+    &.syntax--operator {
+      color: @cyan;
+    }
+  }
+
+  .syntax--constant {
+    color: @cyan;
+
+    &.syntax--other {
+      color: @white;
+
+      &.syntax--regexp {
+        color: @orange;
+      }
+    }
+
+    &.syntax--numeric {
+      color: @orange;
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--arguments,
+      &.syntax--parameters {
+        color: @syntax-text-color;
+      }
+    }
+  }
+
+  .syntax--generator {
+    color: @cyan;
+  }
+}
