@@ -4,6 +4,16 @@
   color: @background-lightest;
 }
 
+.syntax--hyperlink,
+.syntax--link {
+  color: @purple;
+}
+
+.syntax--strike {
+  text-decoration: line-through;
+  color: @main;
+}
+
 .syntax--keyword {
   color: @purple;
 
@@ -37,10 +47,6 @@
 
   &.syntax--numeric {
     color: @purple;
-  }
-
-  &.syntax--other.syntax--color {
-    color: @cyan;
   }
 
   &.syntax--other.syntax--symbol {
@@ -88,8 +94,7 @@
     }
 
     &.syntax--string,
-    &.syntax--variable,
-    &.syntax--array {
+    &.syntax--variable {
       color: @green;
     }
 
