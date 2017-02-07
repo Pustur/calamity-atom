@@ -1,0 +1,51 @@
+// HTML styles
+
+.syntax--html {
+  .syntax--string {
+    color: @yellow;
+
+    &.syntax--js {
+      color: @green;
+    }
+
+    &.syntax--regexp {
+      color: @blue;
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--string,
+      &.syntax--variable,
+      &.syntax--array {
+        color: @yellow;
+
+        &.syntax--js {
+          color: @green;
+        }
+      }
+    }
+  }
+
+  .syntax--entity {
+    &.syntax--attribute-name {
+      color: @orange;
+    }
+  }
+
+  .syntax--constant {
+    color: @red;
+
+    &.syntax--boolean {
+      &.syntax--js {
+        color: @cyan;
+      }
+    }
+
+    &.syntax--numeric {
+      &.syntax--js {
+        color: @orange;
+      }
+    }
+  }
+}
