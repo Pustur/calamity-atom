@@ -9,7 +9,7 @@
     "dark",
     "purple"
   ],
-  "repository": "https://github.com/atom/calamity-syntax",
+  "repository": "https://github.com/Pustur/Calamity-syntax",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
