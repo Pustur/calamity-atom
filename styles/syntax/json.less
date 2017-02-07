@@ -1,0 +1,21 @@
+// JSON styles
+
+.syntax--source.syntax--json {
+  .syntax--constant.syntax--numeric {
+    color: @orange;
+  }
+
+  .syntax--meta.syntax--structure {
+    &.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+    &.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+      color: @red;
+    }
+
+    &.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+    &.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+    &.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+    &.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+      color: @green;
+    }
+  }
+}
