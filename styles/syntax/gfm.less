@@ -1,0 +1,42 @@
+// GitHub Flavoured Markdown styles
+
+.syntax--source.syntax--gfm {
+  .syntax--markup {
+    &.syntax--heading {
+      color: @pink;
+    }
+  }
+
+  .syntax--entity {
+    color: @cyan;
+
+    &.syntax--tag {
+      color: @pink;
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--begin,
+    &.syntax--end {
+      color: @syntax-text-color;
+    }
+  }
+
+  .syntax--raw {
+    color: @green;
+  }
+
+  .syntax--table {
+    .syntax--pipe {
+      color: @yellow;
+    }
+
+    .syntax--border {
+      color: @yellow;
+
+      &.syntax--alignment {
+        color: @red;
+      }
+    }
+  }
+}
