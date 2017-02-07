@@ -1,0 +1,39 @@
+// PHP styles
+
+.syntax--php {
+  .syntax--constant {
+    color: @orange;
+  }
+
+  .syntax--string {
+    color: @green;
+  }
+
+  .syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--string {
+        color: @green;
+      }
+
+      &.syntax--array {
+        color: inherit;
+      }
+
+      &.syntax--variable {
+        color: @red;
+      }
+    }
+  }
+
+  .syntax--support {
+    &.syntax--function {
+      color: @cyan;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--operator {
+      color: @cyan;
+    }
+  }
+}
