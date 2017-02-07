@@ -1,0 +1,80 @@
+// CSS - SASS - SCSS - LESS styles
+
+.syntax--css,
+.syntax--sass,
+.syntax--scss,
+.syntax--less {
+  .syntax--entity {
+    &.syntax--attribute-name {
+      color: @yellow;
+    }
+
+    &.syntax--custom {
+      color: @purple;
+    }
+  }
+
+  .syntax--constant {
+    color: @orange;
+
+    &.syntax--support {
+      color: inherit;
+    }
+  }
+}
+
+.syntax--sass {
+  .syntax--variable-usage {
+    color: @red;
+  }
+
+  .syntax--parent-reference {
+    color: @red;
+  }
+
+  .syntax--meta {
+    &.syntax--selector {
+      color: inherit;
+    }
+  }
+
+  .syntax--constant {
+    &.syntax--other.syntax--color {
+      color: @orange;
+    }
+  }
+}
+
+.syntax--scss {
+  .syntax--entity {
+    &.syntax--reference {
+      color: @red;
+    }
+  }
+}
+
+.syntax--less {
+  .syntax--entity {
+    &.syntax--parent-selector {
+      color: @red;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--elements {
+      color: @pink;
+
+      &.syntax--custom {
+        color: inherit;
+      }
+    }
+  }
+
+  .syntax--support {
+    &.syntax--function {
+      &.syntax--any-method {
+        color: @cyan;
+      }
+    }
+  }
+}
