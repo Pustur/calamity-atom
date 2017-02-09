@@ -16,6 +16,7 @@
 - JSON
 - PHP
 - SQL
+- Pug / Jade **[New]**
 
 If you want more a PR is always welcome! 🙂
 
