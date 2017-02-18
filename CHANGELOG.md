@@ -1,3 +1,6 @@
+## 1.1.2
+- Fixed some colors in Javascript
+
 ## 1.1.1
 - Fixed mixin colors in Pug / Jade
 

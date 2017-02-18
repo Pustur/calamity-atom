@@ -4,6 +4,15 @@
   .syntax--keyword {
     &.syntax--operator {
       color: @cyan;
+
+      &.syntax--instanceof,
+      &.syntax--typeof,
+      &.syntax--getter,
+      &.syntax--setter,
+      &.syntax--in,
+      &.syntax--of {
+        color: @purple;
+      }
     }
   }
 
@@ -13,6 +22,7 @@
     &.syntax--other {
       color: @white;
 
+      &.syntax--property,
       &.syntax--regexp {
         color: @orange;
       }
