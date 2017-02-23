@@ -1,3 +1,6 @@
+## 1.2.0
+- Added support for Python language
+
 ## 1.1.2
 - Fixed some colors in Javascript
 

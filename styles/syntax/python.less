@@ -1,0 +1,58 @@
+// Python styles
+
+.syntax--python {
+  .syntax--section {
+    color: @main-lighter;
+  }
+
+  .syntax--constant {
+    color: @orange;
+
+    &.syntax--numeric {
+      color: @orange;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--operator {
+      color: @cyan;
+    }
+  }
+
+  .syntax--entity {
+    &.syntax--name {
+      &.syntax--function {
+        &.syntax--decorator {
+          color: @blue;
+
+          * {
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  .syntax--meta {
+    &.syntax--function-call {
+      color: @yellow;
+
+      &.syntax--arguments {
+        color: @main-lighter;
+      }
+    }
+  }
+
+  .syntax--punctuation {
+    &.syntax--definition {
+      &.syntax--begin,
+      &.syntax--end {
+        color: @main-lighter;
+      }
+
+      &.syntax--string {
+        color: @green;
+      }
+    }
+  }
+}
