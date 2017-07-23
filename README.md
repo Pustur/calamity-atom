@@ -1,10 +1,12 @@
-## [Calamity Syntax Theme](https://atom.io/themes/calamity-syntax)
+## [Calamity Theme for Atom](https://atom.io/themes/calamity-syntax)
 
-> A purple dark theme with medium to high contrast for the Atom editor
+> A purple dark theme with medium to high contrast for the [Atom editor](https://atom.io)
 
-![calamity-syntax](https://cloud.githubusercontent.com/assets/13663338/22715970/d660ad2a-ed93-11e6-9e72-2fff16f8d803.png)
+![calamity-logotype](images/logotype.png)
 
-**Supported languages:**
+![calamity-screenshot](images/screenshot.png)
+
+## Supported languages
 
 - JavaScript
 - CSS
@@ -17,12 +19,24 @@
 - PHP
 - SQL
 - Pug / Jade
-- Python **[New]**
+- Python
 
-If you want more a PR is always welcome! 🙂
+## Supported editors
+
+Also available for:
+
+- [VSCode](https://marketplace.visualstudio.com/items?itemName=Pustur.calamity-vscode)
 
 ## Install
 
 ```
 apm install calamity-syntax
 ```
+
+## Contributing
+
+If you want more languages a PR is always welcome! 🙂
+
+## License
+
+[MIT](https://github.com/Pustur/calamity-atom/blob/master/LICENSE.md)

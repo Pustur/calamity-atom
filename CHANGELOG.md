@@ -1,3 +1,6 @@
+## 1.2.1
+- Updated README and mention the existence of the theme for VSCode
+
 ## 1.2.0
 - Added support for Python language
 
