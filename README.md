@@ -21,11 +21,13 @@
 - Pug / Jade
 - Python
 
-## Supported editors
+## Supported applications
 
 Also available for:
 
 - [VSCode](https://marketplace.visualstudio.com/items?itemName=Pustur.calamity-vscode)
+- [Sublime Text](https://github.com/Pustur/calamity-sublime)
+- [iTerm2](https://github.com/mbadolato/iTerm2-Color-Schemes#calamity)
 
 ## Install
 

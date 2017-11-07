@@ -1,3 +1,6 @@
+## 1.2.2
+- Updated README and mention the existence of the theme for Sublime Text and iTerm2
+
 ## 1.2.1
 - Updated README and mention the existence of the theme for VSCode
 
