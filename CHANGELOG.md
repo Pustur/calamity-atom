@@ -1,3 +1,7 @@
+## 1.2.3
+- Fixed link color (thanks @Spyridox)
+- Changed .gitignore
+
 ## 1.2.2
 - Updated README and mention the existence of the theme for Sublime Text and iTerm2
 
