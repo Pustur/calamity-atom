@@ -1,0 +1,45 @@
+// Java styles
+
+.syntax--java {
+  .syntax--meta {
+    &.syntax--class {
+      color: @syntax-text-color;
+    }
+
+    &.syntax--declaration {
+      &.syntax--annotation {
+        color: @pink;
+
+        .syntax--storage {
+          &.syntax--type {
+            color: inherit;
+          }
+        }
+      }
+    }
+  }
+
+  .syntax--storage {
+    &.syntax--type {
+      color: @cyan;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--operator {
+      color: @cyan;
+    }
+  }
+
+  .syntax--constant {
+    color: @cyan;
+
+    &.syntax--other {
+      color: @white;
+    }
+
+    &.syntax--numeric {
+      color: @orange;
+    }
+  }
+}

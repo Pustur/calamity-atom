@@ -20,6 +20,7 @@
 - SQL
 - Pug / Jade
 - Python
+- Java
 
 ## Supported applications
 
